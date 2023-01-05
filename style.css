@@ -1,0 +1,59 @@
+body {
+    background-image: url(clouds.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-color:rgb(166, 171, 175)
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color:blue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+}
+
+.btn {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color:blue;
+    background-color: cornflowerblue;
+    border: none;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .image {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .image {
+        width: 150px;
+        height: 200px;
+    }
+}
